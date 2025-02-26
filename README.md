@@ -5,7 +5,6 @@ Setting up **SSH authentication** for GitHub allows you to securely clone reposi
 📌 **For a detailed step-by-step guide, check out the Full Blog Post:**  
 👉 [How to Generate an SSH Key and Add It to GitHub for Secure Git Operations](https://shafiqulai.github.io/blogs/blog_2.html?id=2)  
 
----
 
 ## **📌 Table of Contents**  
 - [🔹 What is an SSH Key and Why Use It?](#-what-is-an-ssh-key-and-why-use-it)  
@@ -18,7 +17,6 @@ Setting up **SSH authentication** for GitHub allows you to securely clone reposi
 - [🔑 Managing Multiple SSH Keys](#-managing-multiple-ssh-keys)  
 - [🎯 Conclusion](#-conclusion)  
 
----
 
 ## **🔹 What is an SSH Key and Why Use It?**  
 
@@ -29,7 +27,6 @@ SSH (**Secure Shell**) keys provide **password-free authentication** between you
 ✅ **Seamless Workflow** – No need to enter credentials repeatedly.  
 ✅ **GitHub Recommended** – GitHub no longer supports password-based Git operations.  
 
----
 
 ## **⚡ Generating an SSH Key Pair**  
 
@@ -46,7 +43,6 @@ ssh-keygen -t ed25519 -C "your-email@example.com"
 ls -al ~/.ssh
 ```
 
----
 
 ## **🔐 Adding the SSH Key to the SSH Agent**  
 
@@ -61,7 +57,6 @@ To verify:
 ssh-add -l
 ```
 
----
 
 ## **🔗 Adding the SSH Key to GitHub**  
 
@@ -94,7 +89,6 @@ git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
 ```
 
----
 
 ## **🔽 Cloning a Repository Using SSH**  
 
@@ -112,7 +106,6 @@ origin  git@github.com:your-username/repository.git (fetch)
 origin  git@github.com:your-username/repository.git (push)
 ```
 
----
 
 ## **🚀 Pushing Code to GitHub Using SSH**  
 
@@ -137,7 +130,6 @@ git push origin main
 git push --set-upstream origin main
 ```
 
----
 
 ## **🔑 Managing Multiple SSH Keys**  
 
@@ -173,7 +165,6 @@ git clone git@github-work:work-username/work-repo.git
 git clone git@github-personal:personal-username/personal-repo.git
 ```
 
----
 
 ## **🎯 Conclusion**  
 
@@ -182,4 +173,3 @@ Setting up SSH authentication for GitHub makes your **Git workflow faster and mo
 📌 **For a more detailed guide, visit following blog post:**  
 👉 [How to Generate an SSH Key and Add It to GitHub for Secure Git Operations](https://shafiqulai.github.io/blogs/blog_2.html?id=2)  
 
-🚀 **Happy Coding!** 🎉
